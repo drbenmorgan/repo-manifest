@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="dbm-github" fetch="ssh://git@github.com/drbenmorgan" />
+
+  <project path="drbenmorgan/dbm-vim.git" 
+           name="dbm-vim" 
+           remote="dbm-github" 
+           revision="master"/>
+
+  <project path="drbenmorgan/dbm-snippets.vim.git"
+           name="dbm-snippets.vim"
+           remote="dbm-github"
+           revision="master"/>
+</manifest>
